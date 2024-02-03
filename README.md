@@ -176,7 +176,60 @@ student1.phone = int(input("Enter student phone no  : "))
 print(f"Name: {student1.name}, Id no: {student1.Id}, Phone no: {student1.phone}")  
 
 
+import math
 
+a = math.sqrt(49)
+b = math.ceil(2.8)
+c = math.floor(2.8)
+d = math.pi
+import datetime
+e = datetime.datetime.now()
+
+print(a)
+print(b)
+print(c)
+print(d)
+print(e.year)
+print(e.strftime("%A"))
+
+#Declaring a function
+def fun():
+     print("Name: Ali Abbas")
+     print("F.Name: Abdul Latif")
+     print("Campus: Daftar-e-Jamat Islami korangi")
+     print("cell no: 03112074782")
+     print("Gmail: aliabbas02022006@gmail.com")
+    #Driver's code
+    #Calling fun
+fun()
+
+def evenodd(f):
+    if (f % 2 == 0):
+        print("even")
+    else:
+        print("odd")
+        
+    #Driver's code
+evenodd(234)
+evenodd(365)
+
+# python programming
+# default arguments
+def myfun(x, y = 50):
+    print("x: ", x)
+    print("y: ", y)
+myfun(43)    
+
+#keywords Arguments
+def student(firstname, lastname):
+    print(firstname, lastname)
+
+student(lastname = 'Abdul Latif', firstname='Ali Abbas')
+
+ages = {"ali":18,"saqib":24}
+del ages ["saqib"]
+print(ages)
+   
 
 
 
