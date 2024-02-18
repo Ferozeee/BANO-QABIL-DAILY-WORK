@@ -279,7 +279,11 @@ employee2.print_employee_details()
 employee3.print_employee_details()
 employee4.print_employee_details()
 
+import datetime
+import streamlit as st
 
+d = st.date_input("When's your birthday", datetime.date(2000, 7, 6))
+st.write('Your birthday is:', d)
 
 
 
